@@ -102,6 +102,7 @@ object ParagraphExtractor {
 
   /** Tags that separate paragraphs. */
   private val blockTags = Set(
+    "a",
     "address",
     "article",
     "aside",
